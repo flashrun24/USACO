@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.29)
-project(CPP_Template VERSION 0.1 DESCRIPTION "temp" HOMEPAGE_URL "https://github.com/flashrun24/" LANGUAGES CXX)
-set(CMAKE_CXX_STANDARD 23)
-
+project(USACO VERSION 0.1 DESCRIPTION "temp" HOMEPAGE_URL "https://github.com/flashrun24/" LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_FLAGS "-O3")
 
 configure_file(include/Config.h include/Config.h)
 file(GLOB_RECURSE SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp)
