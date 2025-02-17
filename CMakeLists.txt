@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.29)
-project(USACO VERSION 0.1 DESCRIPTION "temp" HOMEPAGE_URL "https://github.com/flashrun24/" LANGUAGES CXX)
+project(USACO VERSION 0.1 DESCRIPTION "Practice USACO problems" HOMEPAGE_URL "https://github.com/flashrun24/" LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_FLAGS "-O3")
 
